@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+/* css Menu */
+.menu span {
+    color: #000000;
+    background-color: green;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+}
+.menu span:hover {
+    background-color: grey;
+    color: red;
+}
+
+
+.menu-vertical span {
+    color: #000000;
+    background-color: green;
+    display: block;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+}
+.menu-vertical span:hover {
+    background-color: grey;
+    color: red;
+}
+
+
+
+
+
