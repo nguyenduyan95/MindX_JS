@@ -16,8 +16,22 @@ const navItems = [
     },
 ];
 
-widown.onload = function(){
-    for (let a of navItems) {
-       document.getElementsByClassName("menu")[0].innerhtml += `<span> a.name </span> ` 
+// function create() {
+//     let html = "";
+//     for (i = 0; i < navItems.length; i++) {
+//         html +=
+//             `<span>${navItems[i].name}</span>`
+//     }
+//     document.getElementsByClassName("menu")[0].innerHTML = html
+// }
+// create();
+
+window.onload = function(){
+    for(let a of navItems ){
+        // document.getElementsByClassName("menu").innerHTML +=  `<span>${a.name}</span>`
+        for(let el of document.getElementsByClassName("menu")){
+            el.innerHTML += `<span>${a.name}</span>`
+        }
+
     }
 }
